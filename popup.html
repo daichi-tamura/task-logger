@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Logger</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Logger</h1>
+    
+    <div class="task-input-section">
+      <input 
+        type="text" 
+        id="taskInput" 
+        placeholder="タスク内容を入力（30文字以内）" 
+        maxlength="30"
+        class="task-input"
+      >
+      <div class="char-count">
+        <span id="charCount">0</span>/30
+      </div>
+    </div>
+
+    <div class="button-section">
+      <button id="startBtn" class="btn btn-start">開始</button>
+      <button id="stopBtn" class="btn btn-stop" disabled>終了</button>
+    </div>
+
+    <div class="status-section">
+      <div id="currentTask" class="current-task"></div>
+      <div id="timer" class="timer"></div>
+    </div>
+
+    <div class="history-section">
+      <h3>今日の記録</h3>
+      <div id="taskHistory" class="task-history"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 
