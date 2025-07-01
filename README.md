@@ -1,6 +1,6 @@
 # Task Logger Chrome Extension
-
-シンプルなタスク時間記録Chrome拡張機能です。
+Cursor のテスト的に作成してみたシンプルなタスク時間記録Chrome拡張機能です。
+アイコン画像の用意以外はすべて CurSor が行い自分自身コードは一行も書いていません。
 
 ## 機能
 
